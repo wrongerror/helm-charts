@@ -1,0 +1,43 @@
+apiVersion: v1
+entries:
+  knative-serving:
+  - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2022-05-29T20:59:27.181467434+08:00"
+    description: A Helm chart for Knative Serving on Kubernetes
+    digest: 3592c054ddc3a5d036ebd52bba15600a88540902eaa5f54bba3b93500f9f1b82
+    keywords:
+    - Serverless
+    - Kubernetes
+    maintainers:
+    - email: wangyifei@kubesphere.io
+      name: wangyifei
+    name: knative-serving
+    sources:
+    - https://github.com/knative/serving
+    type: application
+    urls:
+    - https://github.com/wrongerror/helm-charts/knative-serving-1.0.1.tgz
+    version: 1.0.1
+  tekton-pipelines:
+  - apiVersion: v2
+    appVersion: 0.30.0
+    created: "2022-05-29T21:01:36.890445596+08:00"
+    description: A Helm chart for Tekton Pipelines on Kubernetes
+    digest: db56a2f0527d9e03693bf6a1276e49f43e58c0107e33c6280301c8ba08ecb8f3
+    keywords:
+    - Continuous delivery
+    - Continuous deployment
+    - Devops
+    - Kubernetes
+    maintainers:
+    - email: wangyifei@kubesphere.io
+      name: wangyifei
+    name: tekton-pipelines
+    sources:
+    - https://github.com/tektoncd/pipeline
+    type: application
+    urls:
+    - https://github.com/wrongerror/helm-charts/tekton-pipelines-0.30.0.tgz
+    version: 0.30.0
+generated: "2022-05-29T21:01:36.881715451+08:00"
