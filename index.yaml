@@ -3,9 +3,9 @@ entries:
   knative-serving:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2022-05-29T20:59:27.181467434+08:00"
+    created: "2022-05-30T09:48:44.396916363+08:00"
     description: A Helm chart for Knative Serving on Kubernetes
-    digest: 3592c054ddc3a5d036ebd52bba15600a88540902eaa5f54bba3b93500f9f1b82
+    digest: fba960a6f7803e529a3ab316e362c8c31b5bbc7aabb0796311ec4bc8d855df07
     keywords:
     - Serverless
     - Kubernetes
@@ -17,14 +17,56 @@ entries:
     - https://github.com/knative/serving
     type: application
     urls:
-    - https://github.com/wrongerror/helm-charts/knative-serving-1.0.1.tgz
+    - https://wrongerror.github.io/helm-charts/knative-serving-1.0.1.tgz
     version: 1.0.1
+  openfunction:
+  - apiVersion: v2
+    appVersion: 0.6.0
+    created: "2022-05-30T09:48:44.419529211+08:00"
+    description: A Helm chart for OpenFunction on Kubernetes
+    digest: a850c826818184d9c800026a050decd26f38346f686deda7f6b6b2db634c33b7
+    keywords:
+    - faas
+    - Serverless
+    - Kubernetes
+    kubeVersion: '>=v1.17.0-0'
+    maintainers:
+    - email: wangyifei@kubesphere.io
+      name: wangyifei
+    name: openfunction
+    sources:
+    - https://github.com/OpenFunction/OpenFunction
+    type: application
+    urls:
+    - https://wrongerror.github.io/helm-charts/openfunction-0.6.0.tgz
+    version: 0.6.0
+  shipwright-build:
+  - apiVersion: v2
+    appVersion: 0.6.0
+    created: "2022-05-30T09:48:44.42225498+08:00"
+    description: A Helm chart for Shipwright Build on Kubernetes
+    digest: c9083a0afe3d67c06fc166bf7f0d47013fcbc22068987eef123be90e841dd532
+    keywords:
+    - Continuous delivery
+    - Continuous deployment
+    - Devops
+    - Kubernetes
+    maintainers:
+    - email: wangyifei@kubesphere.io
+      name: wangyifei
+    name: shipwright-build
+    sources:
+    - https://github.com/shipwright-io/build
+    type: application
+    urls:
+    - https://wrongerror.github.io/helm-charts/shipwright-build-0.6.0.tgz
+    version: 0.6.0
   tekton-pipelines:
   - apiVersion: v2
     appVersion: 0.30.0
-    created: "2022-05-29T21:01:36.890445596+08:00"
+    created: "2022-05-30T09:48:44.427019461+08:00"
     description: A Helm chart for Tekton Pipelines on Kubernetes
-    digest: db56a2f0527d9e03693bf6a1276e49f43e58c0107e33c6280301c8ba08ecb8f3
+    digest: 94725e846cc0f2f9897af15ac913f6ae83ac177728cfc89beee212517278bd60
     keywords:
     - Continuous delivery
     - Continuous deployment
@@ -38,6 +80,6 @@ entries:
     - https://github.com/tektoncd/pipeline
     type: application
     urls:
-    - https://github.com/wrongerror/helm-charts/tekton-pipelines-0.30.0.tgz
+    - https://wrongerror.github.io/helm-charts/tekton-pipelines-0.30.0.tgz
     version: 0.30.0
-generated: "2022-05-29T21:01:36.881715451+08:00"
+generated: "2022-05-30T09:48:44.385525409+08:00"
